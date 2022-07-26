@@ -7,8 +7,8 @@ It is a program that examines the amount of prime numbers in a large array of nu
 - ***Terminal*** to test and run my code
 
 ## Concepts utilized in the project 
-- pthreads
-- fork
+- PThreads
+- Fork
 
 ## Approach
 The parent creates n processes, where n is the number of processing cores in the machine. Each child process spawns n/2 pthreads to carry out the processing. The program adapts to the hardware it is utilizing, and instead of being a constant or hard-coded value, n is generated from the operating system.
